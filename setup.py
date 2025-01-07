@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='fbdl-core',
-    version='0.0.3',
+    version='0.0.4',
     author='AntonThomzz',
     author_email='antonthomzz@gmail.com',
     description='Modul untuk mengunduh video dari Facebook melalui terminal.',
@@ -18,7 +18,7 @@ setup(
     python_requires='>=3.6',
     entry_points={
         'console_scripts': [
-            'fbdl=fbdl-core.fbdl:main'
+            'fbdl=fbdl_core.fbdl:main'
         ],
     }
 )

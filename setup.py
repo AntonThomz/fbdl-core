@@ -18,8 +18,7 @@ setup(
     python_requires='>=3.6',
     entry_points={
         'console_scripts': [
-            'fbdl=fbdl-core.fbdl:main',
-            'fb=fbdl-core.fbdl2:main'
+            'fbdl=fbdl-core.fbdl:main'
         ],
     }
 )
